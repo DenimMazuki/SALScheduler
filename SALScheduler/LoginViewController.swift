@@ -32,6 +32,7 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate {
                 
                 // Perform segue to HomeVC
                 let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: "TestViewController") as! TestViewController
+                
                 self.present(homeViewController, animated: true, completion: nil)
             }
             
