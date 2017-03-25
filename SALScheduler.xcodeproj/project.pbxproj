@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		2FE1463E3877603074609F7D /* Pods_SALScheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E499A25D70DFC0351A469B0 /* Pods_SALScheduler.framework */; };
 		D62189F91E86F40100A0FEB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62189F81E86F40100A0FEB1 /* AppDelegate.swift */; };
-		D62189FB1E86F40100A0FEB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62189FA1E86F40100A0FEB1 /* ViewController.swift */; };
 		D62189FE1E86F40100A0FEB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62189FC1E86F40100A0FEB1 /* Main.storyboard */; };
 		D6218A001E86F40100A0FEB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62189FF1E86F40100A0FEB1 /* Assets.xcassets */; };
 		D6218A031E86F40100A0FEB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6218A011E86F40100A0FEB1 /* LaunchScreen.storyboard */; };
-		D6218A0B1E86F53F00A0FEB1 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = D6218A0A1E86F53F00A0FEB1 /* GoogleService-Info (1).plist */; };
+		D6218A0B1E86F53F00A0FEB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6218A0A1E86F53F00A0FEB1 /* GoogleService-Info.plist */; };
+		D6218A0D1E87062600A0FEB1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6218A0C1E87062600A0FEB1 /* LoginViewController.swift */; };
+		D6218A0F1E8719AC00A0FEB1 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6218A0E1E8719AC00A0FEB1 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +23,13 @@
 		9E499A25D70DFC0351A469B0 /* Pods_SALScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SALScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62189F51E86F40100A0FEB1 /* SALScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SALScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62189F81E86F40100A0FEB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D62189FA1E86F40100A0FEB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D62189FD1E86F40100A0FEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D62189FF1E86F40100A0FEB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6218A021E86F40100A0FEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6218A041E86F40100A0FEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6218A0A1E86F53F00A0FEB1 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		D6218A0A1E86F53F00A0FEB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6218A0C1E87062600A0FEB1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D6218A0E1E8719AC00A0FEB1 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,12 +75,13 @@
 			isa = PBXGroup;
 			children = (
 				D62189F81E86F40100A0FEB1 /* AppDelegate.swift */,
-				D62189FA1E86F40100A0FEB1 /* ViewController.swift */,
 				D62189FC1E86F40100A0FEB1 /* Main.storyboard */,
+				D6218A0C1E87062600A0FEB1 /* LoginViewController.swift */,
+				D6218A0E1E8719AC00A0FEB1 /* TestViewController.swift */,
 				D62189FF1E86F40100A0FEB1 /* Assets.xcassets */,
 				D6218A011E86F40100A0FEB1 /* LaunchScreen.storyboard */,
 				D6218A041E86F40100A0FEB1 /* Info.plist */,
-				D6218A0A1E86F53F00A0FEB1 /* GoogleService-Info (1).plist */,
+				D6218A0A1E86F53F00A0FEB1 /* GoogleService-Info.plist */,
 			);
 			path = SALScheduler;
 			sourceTree = "<group>";
@@ -156,7 +159,7 @@
 				D6218A031E86F40100A0FEB1 /* LaunchScreen.storyboard in Resources */,
 				D6218A001E86F40100A0FEB1 /* Assets.xcassets in Resources */,
 				D62189FE1E86F40100A0FEB1 /* Main.storyboard in Resources */,
-				D6218A0B1E86F53F00A0FEB1 /* GoogleService-Info (1).plist in Resources */,
+				D6218A0B1E86F53F00A0FEB1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D62189FB1E86F40100A0FEB1 /* ViewController.swift in Sources */,
+				D6218A0D1E87062600A0FEB1 /* LoginViewController.swift in Sources */,
+				D6218A0F1E8719AC00A0FEB1 /* TestViewController.swift in Sources */,
 				D62189F91E86F40100A0FEB1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +382,7 @@
 				D6218A091E86F40100A0FEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
