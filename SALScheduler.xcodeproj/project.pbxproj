@@ -378,6 +378,7 @@
 				D6218A091E86F40100A0FEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

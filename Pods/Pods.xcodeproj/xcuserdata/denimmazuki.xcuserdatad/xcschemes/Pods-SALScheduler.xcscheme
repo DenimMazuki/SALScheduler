@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "832E67C2D756B624C7BBE9E1ADDD24B3"
+               BlueprintIdentifier = "274D0AE49AC3CF83D59EBF5A95784413"
                BuildableName = "Pods_SALScheduler.framework"
                BlueprintName = "Pods-SALScheduler"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "832E67C2D756B624C7BBE9E1ADDD24B3"
+            BlueprintIdentifier = "274D0AE49AC3CF83D59EBF5A95784413"
             BuildableName = "Pods_SALScheduler.framework"
             BlueprintName = "Pods-SALScheduler"
             ReferencedContainer = "container:Pods.xcodeproj">
