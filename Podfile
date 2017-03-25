@@ -8,4 +8,6 @@ target 'SALScheduler' do
   # Pods for SALScheduler
 	pod ‘Firebase/Core’
 	pod 'FirebaseUI/Google', '~> 3.0'
+	pod ‘Firebase/Auth’
+	pod ‘Google/SignIn’
 end

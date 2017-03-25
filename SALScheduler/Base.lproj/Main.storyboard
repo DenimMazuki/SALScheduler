@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,22 +22,57 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="45K-pK-USy" customClass="GIDSignInButton">
-                                <rect key="frame" x="16" y="581" width="343" height="66"/>
+                                <rect key="frame" x="87.5" y="587" width="200" height="60"/>
                                 <color key="backgroundColor" red="1" green="0.10311505379999999" blue="0.19077214340000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="lFl-pA-Ysk"/>
+                                    <constraint firstAttribute="width" constant="200" id="ssl-vH-0d1"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="45K-pK-USy" firstAttribute="trailing" secondItem="KAC-JB-bRt" secondAttribute="trailingMargin" id="25P-fH-LrY"/>
-                            <constraint firstItem="45K-pK-USy" firstAttribute="leading" secondItem="KAC-JB-bRt" secondAttribute="leadingMargin" id="WZF-Ib-osF"/>
-                            <constraint firstItem="45K-pK-USy" firstAttribute="top" secondItem="eg8-4z-gXh" secondAttribute="bottom" constant="561" id="e7e-89-W46"/>
-                            <constraint firstItem="HPd-GM-JsX" firstAttribute="top" secondItem="45K-pK-USy" secondAttribute="bottom" constant="20" id="if6-8d-3rM"/>
+                            <constraint firstItem="HPd-GM-JsX" firstAttribute="top" secondItem="45K-pK-USy" secondAttribute="bottom" constant="20" id="YbP-Is-AKA"/>
+                            <constraint firstItem="45K-pK-USy" firstAttribute="centerX" secondItem="KAC-JB-bRt" secondAttribute="centerX" id="yvs-dc-HMI"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IVH-sk-fV5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-644" y="-93.103448275862078"/>
+        </scene>
+        <!--TestViewController-->
+        <scene sceneID="3Bb-w7-hnP">
+            <objects>
+                <viewController storyboardIdentifier="TestViewController" title="TestViewController" id="mpl-4M-BZh" customClass="TestViewController" customModule="SALScheduler" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j3m-SR-0jc"/>
+                        <viewControllerLayoutGuide type="bottom" id="afC-l9-ubh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hwk-av-rCw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bvf-iw-ngZ">
+                                <rect key="frame" x="128" y="304" width="120" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bvf-iw-ngZ" firstAttribute="centerX" secondItem="Hwk-av-rCw" secondAttribute="centerX" id="7EE-Jh-FB4"/>
+                            <constraint firstItem="Bvf-iw-ngZ" firstAttribute="centerY" secondItem="Hwk-av-rCw" secondAttribute="centerY" id="tIN-Si-PNH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="usernameLabel" destination="Bvf-iw-ngZ" id="ctb-Gr-Ayf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I4N-Zz-RZX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57" y="-93"/>
         </scene>
     </scenes>
 </document>

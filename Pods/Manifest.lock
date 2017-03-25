@@ -21,6 +21,11 @@ PODS:
   - FirebaseUI/Google (3.1.1):
     - FirebaseUI/Auth
     - GoogleSignIn (~> 4.0)
+  - Google/Core (3.0.3):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.0.3):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
   - GoogleSignIn (4.0.2):
     - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
     - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
@@ -45,8 +50,10 @@ PODS:
     - GTMSessionFetcher/Core (= 1.1.9)
 
 DEPENDENCIES:
+  - Firebase/Auth
   - Firebase/Core
   - FirebaseUI/Google (~> 3.0)
+  - Google/SignIn
 
 SPEC CHECKSUMS:
   Firebase: 2b1cdfba1cda8589f32904a697cc753322bff9d8
@@ -55,11 +62,12 @@ SPEC CHECKSUMS:
   FirebaseCore: a024587e43778508700af8c6b1209f7c4516ba02
   FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
   FirebaseUI: 6e99ff95e369f5858232e4f65bff215458fe8469
+  Google: 813c467362eabc11385f5a5cc9ad0cb651a58f4e
   GoogleSignIn: d7ad83f13480e1f30453471d00d19b5293ac46af
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
   GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
 
-PODFILE CHECKSUM: 25c543a113badc8d93734a4136ce566d8dd13df9
+PODFILE CHECKSUM: 26a8d7f489f9844815a50fea07066167a32e7b9c
 
 COCOAPODS: 1.2.0

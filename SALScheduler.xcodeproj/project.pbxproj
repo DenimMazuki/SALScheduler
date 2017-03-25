@@ -14,6 +14,7 @@
 		D6218A031E86F40100A0FEB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6218A011E86F40100A0FEB1 /* LaunchScreen.storyboard */; };
 		D6218A0B1E86F53F00A0FEB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6218A0A1E86F53F00A0FEB1 /* GoogleService-Info.plist */; };
 		D6218A0D1E87062600A0FEB1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6218A0C1E87062600A0FEB1 /* LoginViewController.swift */; };
+		D6218A0F1E8719AC00A0FEB1 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6218A0E1E8719AC00A0FEB1 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D6218A041E86F40100A0FEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6218A0A1E86F53F00A0FEB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D6218A0C1E87062600A0FEB1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D6218A0E1E8719AC00A0FEB1 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				D62189F81E86F40100A0FEB1 /* AppDelegate.swift */,
 				D62189FC1E86F40100A0FEB1 /* Main.storyboard */,
 				D6218A0C1E87062600A0FEB1 /* LoginViewController.swift */,
+				D6218A0E1E8719AC00A0FEB1 /* TestViewController.swift */,
 				D62189FF1E86F40100A0FEB1 /* Assets.xcassets */,
 				D6218A011E86F40100A0FEB1 /* LaunchScreen.storyboard */,
 				D6218A041E86F40100A0FEB1 /* Info.plist */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6218A0D1E87062600A0FEB1 /* LoginViewController.swift in Sources */,
+				D6218A0F1E8719AC00A0FEB1 /* TestViewController.swift in Sources */,
 				D62189F91E86F40100A0FEB1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
