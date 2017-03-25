@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE1463E3877603074609F7D /* Pods_SALScheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E499A25D70DFC0351A469B0 /* Pods_SALScheduler.framework */; };
+		D62189F91E86F40100A0FEB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62189F81E86F40100A0FEB1 /* AppDelegate.swift */; };
+		D62189FB1E86F40100A0FEB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62189FA1E86F40100A0FEB1 /* ViewController.swift */; };
+		D62189FE1E86F40100A0FEB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62189FC1E86F40100A0FEB1 /* Main.storyboard */; };
+		D6218A001E86F40100A0FEB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62189FF1E86F40100A0FEB1 /* Assets.xcassets */; };
+		D6218A031E86F40100A0FEB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6218A011E86F40100A0FEB1 /* LaunchScreen.storyboard */; };
+		D6218A0B1E86F53F00A0FEB1 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = D6218A0A1E86F53F00A0FEB1 /* GoogleService-Info (1).plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19757F3510855DD774647B56 /* Pods-SALScheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SALScheduler.release.xcconfig"; path = "Pods/Target Support Files/Pods-SALScheduler/Pods-SALScheduler.release.xcconfig"; sourceTree = "<group>"; };
+		4D26812CC32109999E31359D /* Pods-SALScheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SALScheduler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SALScheduler/Pods-SALScheduler.debug.xcconfig"; sourceTree = "<group>"; };
+		9E499A25D70DFC0351A469B0 /* Pods_SALScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SALScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62189F51E86F40100A0FEB1 /* SALScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SALScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62189F81E86F40100A0FEB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D62189FA1E86F40100A0FEB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D62189FD1E86F40100A0FEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D62189FF1E86F40100A0FEB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6218A021E86F40100A0FEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6218A041E86F40100A0FEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6218A0A1E86F53F00A0FEB1 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D62189F21E86F40100A0FEB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE1463E3877603074609F7D /* Pods_SALScheduler.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C5F36D68221644565FBFC23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D26812CC32109999E31359D /* Pods-SALScheduler.debug.xcconfig */,
+				19757F3510855DD774647B56 /* Pods-SALScheduler.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D62189EC1E86F40100A0FEB1 = {
+			isa = PBXGroup;
+			children = (
+				D62189F71E86F40100A0FEB1 /* SALScheduler */,
+				D62189F61E86F40100A0FEB1 /* Products */,
+				3C5F36D68221644565FBFC23 /* Pods */,
+				EF5032EF88266C040CC0687E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D62189F61E86F40100A0FEB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D62189F51E86F40100A0FEB1 /* SALScheduler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D62189F71E86F40100A0FEB1 /* SALScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				D62189F81E86F40100A0FEB1 /* AppDelegate.swift */,
+				D62189FA1E86F40100A0FEB1 /* ViewController.swift */,
+				D62189FC1E86F40100A0FEB1 /* Main.storyboard */,
+				D62189FF1E86F40100A0FEB1 /* Assets.xcassets */,
+				D6218A011E86F40100A0FEB1 /* LaunchScreen.storyboard */,
+				D6218A041E86F40100A0FEB1 /* Info.plist */,
+				D6218A0A1E86F53F00A0FEB1 /* GoogleService-Info (1).plist */,
+			);
+			path = SALScheduler;
+			sourceTree = "<group>";
+		};
+		EF5032EF88266C040CC0687E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E499A25D70DFC0351A469B0 /* Pods_SALScheduler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D62189F41E86F40100A0FEB1 /* SALScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6218A071E86F40100A0FEB1 /* Build configuration list for PBXNativeTarget "SALScheduler" */;
+			buildPhases = (
+				491370C2AE2D550AC89C6688 /* [CP] Check Pods Manifest.lock */,
+				D62189F11E86F40100A0FEB1 /* Sources */,
+				D62189F21E86F40100A0FEB1 /* Frameworks */,
+				D62189F31E86F40100A0FEB1 /* Resources */,
+				2200BA42368EF34553D2F5E8 /* [CP] Embed Pods Frameworks */,
+				E44B4B72E7F2D6AC73B67A9A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SALScheduler;
+			productName = SALScheduler;
+			productReference = D62189F51E86F40100A0FEB1 /* SALScheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D62189ED1E86F40100A0FEB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Denim Mazuki";
+				TargetAttributes = {
+					D62189F41E86F40100A0FEB1 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D62189F01E86F40100A0FEB1 /* Build configuration list for PBXProject "SALScheduler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D62189EC1E86F40100A0FEB1;
+			productRefGroup = D62189F61E86F40100A0FEB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D62189F41E86F40100A0FEB1 /* SALScheduler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D62189F31E86F40100A0FEB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6218A031E86F40100A0FEB1 /* LaunchScreen.storyboard in Resources */,
+				D6218A001E86F40100A0FEB1 /* Assets.xcassets in Resources */,
+				D62189FE1E86F40100A0FEB1 /* Main.storyboard in Resources */,
+				D6218A0B1E86F53F00A0FEB1 /* GoogleService-Info (1).plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2200BA42368EF34553D2F5E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SALScheduler/Pods-SALScheduler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		491370C2AE2D550AC89C6688 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E44B4B72E7F2D6AC73B67A9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SALScheduler/Pods-SALScheduler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D62189F11E86F40100A0FEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62189FB1E86F40100A0FEB1 /* ViewController.swift in Sources */,
+				D62189F91E86F40100A0FEB1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D62189FC1E86F40100A0FEB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D62189FD1E86F40100A0FEB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6218A011E86F40100A0FEB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6218A021E86F40100A0FEB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6218A051E86F40100A0FEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6218A061E86F40100A0FEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6218A081E86F40100A0FEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D26812CC32109999E31359D /* Pods-SALScheduler.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SALScheduler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dmazuki.SALScheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D6218A091E86F40100A0FEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19757F3510855DD774647B56 /* Pods-SALScheduler.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SALScheduler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dmazuki.SALScheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D62189F01E86F40100A0FEB1 /* Build configuration list for PBXProject "SALScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6218A051E86F40100A0FEB1 /* Debug */,
+				D6218A061E86F40100A0FEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6218A071E86F40100A0FEB1 /* Build configuration list for PBXNativeTarget "SALScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6218A081E86F40100A0FEB1 /* Debug */,
+				D6218A091E86F40100A0FEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D62189ED1E86F40100A0FEB1 /* Project object */;
+}
