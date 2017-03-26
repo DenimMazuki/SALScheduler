@@ -139,7 +139,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lrH-zH-voE">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2d-9K-BgP">
                                         <rect key="frame" x="12" y="26" width="34" height="30"/>
@@ -148,13 +148,13 @@
                                         </state>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Class Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GeB-zY-TRp">
-                                        <rect key="frame" x="142" y="31" width="91" height="21"/>
+                                        <rect key="frame" x="114.5" y="31" width="91" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zG-Ch-kS4">
-                                        <rect key="frame" x="333" y="26" width="30" height="30"/>
+                                        <rect key="frame" x="278" y="26" width="30" height="30"/>
                                         <state key="normal" title="Add">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -165,7 +165,6 @@
                                     <constraint firstAttribute="bottom" secondItem="9zG-Ch-kS4" secondAttribute="bottom" constant="8" id="4Pb-AP-6ek"/>
                                     <constraint firstAttribute="bottom" secondItem="GeB-zY-TRp" secondAttribute="bottom" constant="12" id="7l3-yc-Iua"/>
                                     <constraint firstItem="GeB-zY-TRp" firstAttribute="centerX" secondItem="lrH-zH-voE" secondAttribute="centerX" id="C0Q-EJ-0f6"/>
-                                    <constraint firstAttribute="width" constant="375" id="CDy-Hr-2BR"/>
                                     <constraint firstItem="B2d-9K-BgP" firstAttribute="leading" secondItem="lrH-zH-voE" secondAttribute="leading" constant="12" id="Xp9-7G-qQ8"/>
                                     <constraint firstAttribute="bottom" secondItem="B2d-9K-BgP" secondAttribute="bottom" constant="8" id="bPq-Sh-h3I"/>
                                     <constraint firstAttribute="height" constant="64" id="pg8-FT-myc"/>
